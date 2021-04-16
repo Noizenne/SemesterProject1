@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Explore the Community Science Museum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html">The Community <br>Science Museum</a>
+            <div class="navlinks" id="Navlinks">
+                <i class="fas fa-times" onclick="hideBars()"></i>
+                <ul>
+                    <li><a href="visit.html">Visit</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="involved.html">Get Involved</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showBars()"></i>
+        </nav>
+
+<!-- JS for MENU -->
+    
+<script>
+
+    var Navlinks = document.getElementById("Navlinks");
+    function showBars(){
+        Navlinks.style.right = "0";
+    }
+    function hideBars(){
+        Navlinks.style.right = "-200px"
+    }
+
+</script>
+</body>
+</html>

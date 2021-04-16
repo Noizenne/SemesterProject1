@@ -1,7 +1,14 @@
+/* Global */
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Neuton', serif;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
 }
 
 body {
@@ -11,6 +18,8 @@ body {
 .header {
     width: 100%;
 }
+
+/* Homepage */
 
 nav {
     display: flex;
@@ -45,7 +54,7 @@ h1 {
     color: white;
     width: 100%;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     font-size: 80px;
     transform: translate(-50%, -50%);
@@ -56,7 +65,56 @@ nav .fas {
     display: none;
 }
 
-@media(max-width: 700px) {
+/* Welcome */
+h3 {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+    font-family: Tajawal, serif;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.row img {
+    height: 400px;
+    width: 100%;
+    flex: 1;
+}
+
+.text-box {
+    flex: 1;
+    margin-left: 10%;
+}
+
+.text-box h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    position: sticky;
+    background-color: #FC7A64;
+}
+
+.footer p {
+    text-align: center;
+}
+
+/* Media query for Homepage */
+
+@media screen and (max-width: 700px) {
     body {
         padding: 0;
     }
@@ -85,7 +143,7 @@ nav .fas {
     }
 
     h1 {
-    top: 29%;
+    top: 12%;
     font-size: 25px;
     }
 
@@ -100,4 +158,35 @@ nav .fas {
     .navlinks ul {
         padding: 35px;
     }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row img {
+        height: 100px;
+    }
+}
+
+/* Event page */
+.events {
+    font-family: Tajawal, serif;
+}
+.eventimg {
+    height: 400px;
+}
+
+/* Media query for Event page */
+
+@media screen and (max-width: 700px) {
+
+    .row {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .text-box {
+        margin: auto;
+    }
+
 }
