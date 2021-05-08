@@ -39,7 +39,7 @@ nav {
     position: relative;
 }
 .navlinks ul li a {
-    color: black;
+    color: #201E1F;
     text-decoration: none;
     font-size: 25px;
 }
@@ -54,7 +54,7 @@ h1 {
     color: white;
     width: 100%;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     font-size: 80px;
     transform: translate(-50%, -50%);
@@ -67,6 +67,7 @@ nav .fas {
 
 /* Welcome */
 h3 {
+    color: #201E1F;
     font-size: 35px;
     text-align: center;
     margin: 20px;
@@ -74,30 +75,54 @@ h3 {
 }
 
 .row {
-    width: 80%;
+    width: 100%;
+    height: 400px;
     display: flex;
     align-items: center;
     margin: auto;
+    background-color: #FEEFDD;
+    margin-bottom: 50px;
 }
 
 .row img {
-    height: 400px;
-    width: 100%;
-    flex: 1;
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    margin: 0 50px 0 50px;
 }
 
-.text-box {
-    flex: 1;
-    margin-left: 10%;
+.row:nth-child(odd){
+    background-color: white;
+}
+
+.row:nth-child(even) {
+    background-color: #FEEFDD;
 }
 
 .text-box h4 {
     font-size: 25px;
+    text-decoration: underline #FF4000 2px;
+    text-underline-position: under;
     margin-bottom: 10px;
+    margin: 0 50px 0 50px;
 }
 
-.text-box p {
+.text-box p  {
+    font-family: tajawal;
+    color: #201E1F;
     font-size: 20px;
+    margin: 10px 50px 10px 50px;
+}
+
+button {
+    color: #FF4000;
+    background: none;
+    font-family: tajawal;
+    border: none;
+    font-size: 18px;
+    margin-left: 50px;
+    text-decoration: underline 2px;
+    
 }
 
 .footer {
@@ -105,7 +130,7 @@ h3 {
     height: 100px;
     margin-top: 50px;
     position: sticky;
-    background-color: #FC7A64;
+    background-color: #50B2C0;
 }
 
 .footer p {
