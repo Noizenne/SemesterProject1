@@ -137,7 +137,7 @@ button {
     text-align: center;
 }
 
-/* Media query for Homepage */
+/* Media query */
 
 @media screen and (max-width: 700px) {
     body {
@@ -153,7 +153,7 @@ button {
     }
 
     .navlinks {
-        position: fixed;
+        position: absolute;
         background: #FC7A64;
         height: 100vh;
         width: 200px;
@@ -185,33 +185,15 @@ button {
     }
 
     .row {
+        max-height: 100%;
+        max-width: 100%;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .row img {
-        height: 100px;
-    }
-}
-
-/* Event page */
-.events {
-    font-family: Tajawal, serif;
-}
-.eventimg {
-    height: 400px;
-}
-
-/* Media query for Event page */
-
-@media screen and (max-width: 700px) {
-
-    .row {
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    .text-box {
-        margin: auto;
+        width: 50%;
+        height: 70%;
     }
 
 }
