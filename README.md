@@ -8,8 +8,6 @@ Semester Project 1 at Noroff Spring 2022.
 
 This project is an informative website for an interactive science museum. The site had to have design that appealed to a target audience which the core is primary and middle school children from 7 - 15 years og age. The site should be made to as not to make them pander, and should take for granted that the audience is inquisitive and intelligent. The website should be easy and responsve to use. 
 
-<hr>
-
 ## Built with
 
 * HTML
