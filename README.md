@@ -36,6 +36,4 @@ or
 
 You can contact me on:
 
-<br>
-
-<a href="https://www.linkedin.com/in/karla-mae-rabe-71b1351b5">LinkedIn</a>
+[LinkedIn](https://www.linkedin.com/in/karla-mae-rabe-71b1351b5)
