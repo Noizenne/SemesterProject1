@@ -46,7 +46,7 @@ nav .fa {
 }
 .navlinks ul li a {
   color: #201e1f;
-  text-decoration: none #ff4000;
+  text-decoration: none #a30000;
   font-size: 25px;
 }
 
@@ -117,7 +117,7 @@ h3 {
 
 .text-box h4 {
   font-size: 25px;
-  text-decoration: underline #ff4000 2px;
+  text-decoration: underline #a30000 2px;
   margin-bottom: 10px;
 }
 
@@ -129,7 +129,7 @@ h3 {
 }
 
 button {
-  color: #ff4000;
+  color: #a30000;
   background: none;
   font-family: tajawal;
   border: none;
@@ -163,7 +163,7 @@ footer {
 }
 
 .footer-box .fa {
-  color: #ff4000;
+  color: #a30000;
   cursor: pointer;
   margin: 2px;
   font-size: 30px;
@@ -186,7 +186,7 @@ footer {
   margin: auto;
   width: 200px;
   margin-top: 5px;
-  background: #ff4000;
+  background: #a30000;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
@@ -239,7 +239,7 @@ footer {
 
   .navlinks {
     position: fixed;
-    background: #ff4000;
+    background: #a30000;
     height: 100vh;
     width: 200px;
     top: 0;
